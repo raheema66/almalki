@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>نموذج جمع البيانات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>نموذج جمع البيانات</h2>
+        <form id="dataForm">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="birthDate">تاريخ الميلاد:</label>
+            <input type="date" id="birthDate" name="birthDate" required>
+
+            <label for="job">الوظيفة:</label>
+            <input type="text" id="job" name="job" required>
+
+            <label for="specialization">التخصص:</label>
+            <input type="text" id="specialization" name="specialization" required>
+
+            <button type="submit">إرسال</button>
+        </form>
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
